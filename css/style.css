@@ -1,4 +1,4 @@
-/* RESET */
+/* -----RESET------- */
 
 * { 
     padding: 0;
@@ -11,7 +11,7 @@ body {
     background-color: #d3d3d3;
 }
 
-/* header */
+/* ----- header ------- */
 
 header {
     padding: 1px 0;
@@ -64,7 +64,7 @@ li {
     border: 1px dotted black;
 }
 
-/* header-bottom */
+/* -----header-bottom---- */
 
 .header-bottom-container {
     display: flex;
@@ -86,7 +86,7 @@ li {
 
 }
 
-/* Main Common */
+/* ----Main Common------ */
 .section {
     display: flex;
     justify-content: center;
@@ -140,7 +140,7 @@ li {
     background-color: #febfcb;
 }
 
-/* main */
+/* ------main------ */
 
 .square {
 
@@ -150,7 +150,7 @@ li {
     background-color: #228b21;
 }
 
-/* footer */
+/* -----footer------ */
 
 footer {
     background-color: black;
