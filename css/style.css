@@ -7,13 +7,15 @@
 
 }
 
+body
+
 /* header */
 
 header {
-    padding: 20px;
-    /* test */
-    background-color: #add8e6;
+    padding: 20px 0;
     height: 100px;
+    background-color: #add8e6;
+
 
 }
 
@@ -23,6 +25,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
+
     /* test */
     background-color: #daa520;
 }
@@ -33,6 +37,8 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    /* TEST */
     border: 1px dotted black;
     
     
@@ -50,7 +56,29 @@ li {
 /* common header-top */
 
 .nav, .logo, .login {
+
+    /* test */
     border: 1px dotted black;
 }
 
 /* header-bottom */
+
+.header-bottom-container {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* test */
+    height: 400px;
+    background-color: #00008b;
+    
+}
+
+.header-bottom-content {
+    /* test */
+    height: 300px;
+    width: 650px;
+    background-color: #ee81ed;
+    border: 1px dotted black;
+
+}
