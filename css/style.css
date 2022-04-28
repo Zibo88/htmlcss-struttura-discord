@@ -7,13 +7,15 @@
 
 }
 
-body
+body {
+    background-color: #d3d3d3;
+}
 
 /* header */
 
 header {
-    padding: 20px 0;
-    height: 100px;
+    padding: 1px 0;
+    /* height: 100px; */
     background-color: #add8e6;
 
 
@@ -65,12 +67,9 @@ li {
 /* header-bottom */
 
 .header-bottom-container {
-    margin: 20px 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 1px;
-    padding-top: 1px;
     /* test */
     height: 400px;
     background-color: #00008b;
@@ -87,14 +86,71 @@ li {
 
 }
 
+/* Main Common */
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* test */
+    height: 400px;
+    /* to remove */
+    background-color: white;
+}
+
+.section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* test */
+    height: 400px;
+    /* to remove */
+    background-color: #d3d3d3;
+}
+
+.section3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* test */
+    height: 600px;
+    /* to remove */
+    background-color: #d3d3d3;
+}
+
+
+
+.section-content {
+    /* test */
+    width: 850px;
+    height: 300px;
+    display: flex;
+    /* to remove */
+    background-color: yellow;
+}
+
+.col-large {
+    width: 70%;
+    /* test */
+    background-color: #1c90ff;
+}
+
+.col-small {
+    width: 30%;
+    /* test */
+    background-color: #febfcb;
+}
+
 /* main */
 
-main {
-    margin-top: 1px;
+.square {
+
+    /* test */
+    width: 850px;
+    height: 500px;
+    background-color: #228b21;
 }
 
-.section {
-    height: 400px;
-    background-color: red;
-}
+
+
+
 
