@@ -6,3 +6,51 @@
     box-sizing: border-box;
 
 }
+
+/* header */
+
+header {
+    padding: 20px;
+    /* test */
+    background-color: #add8e6;
+    height: 100px;
+
+}
+
+.header-top-container {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* test */
+    background-color: #daa520;
+}
+
+/* Menù */
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px dotted black;
+    
+    
+}
+
+nav {
+    flex-grow: 2;
+}
+
+
+li {
+    padding: 10px;  
+}
+
+/* common header-top */
+
+.nav, .logo, .login {
+    border: 1px dotted black;
+}
+
+/* header-bottom */
