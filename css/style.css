@@ -25,6 +25,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 1px;
     
 
     /* test */
@@ -68,9 +69,12 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 1px;
+    padding-top: 1px;
     /* test */
     height: 400px;
     background-color: #00008b;
+    border: 1px dotted black;
     
 }
 
@@ -82,3 +86,15 @@ li {
     border: 1px dotted black;
 
 }
+
+/* main */
+
+main {
+    margin-top: 1px;
+}
+
+.section {
+    height: 400px;
+    background-color: red;
+}
+
