@@ -11,31 +11,34 @@ body {
     background-color: #d3d3d3;
 }
 
+/* COMMON */
+
+ul {
+    list-style: none;
+}
+
 /* ----- header ------- */
 
 header {
-    padding: 1px 0;
-    /* height: 100px; */
+    padding: 20px 0;
     background-color: #add8e6;
-
-
 }
 
 .header-top-container {
-    width: 70%;
+    width: 60%;
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 1px;
+    padding-bottom: 10px 0;
     
 
     /* test */
     background-color: #daa520;
 }
 
-/* Menù */
-ul {
+/* ---Menù-Header----*/
+.header-menu {
     list-style-type: none;
     display: flex;
     justify-content: center;
@@ -47,8 +50,17 @@ ul {
     
 }
 
+.logo {
+    width: 20%;
+}
+
 nav {
-    flex-grow: 2;
+    width: 60%;
+}
+
+.login {
+    width: 20%;
+    text-align: right;
 }
 
 
@@ -56,10 +68,15 @@ li {
     padding: 10px;  
 }
 
+.header-menu li a {
+    color: black;
+    text-decoration: none;
+}
+
 /* common header-top */
 
 .nav, .logo, .login {
-
+    padding: 10px 0;
     /* test */
     border: 1px dotted black;
 }
@@ -70,6 +87,7 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
+
     /* test */
     height: 400px;
     background-color: #00008b;
@@ -78,6 +96,7 @@ li {
 }
 
 .header-bottom-content {
+
     /* test */
     height: 300px;
     width: 650px;
@@ -91,6 +110,7 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
+
     /* test */
     height: 400px;
     /* to remove */
@@ -101,6 +121,7 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
+
     /* test */
     height: 400px;
     /* to remove */
@@ -120,22 +141,25 @@ li {
 
 
 .section-content {
+
+
     /* test */
     width: 850px;
     height: 300px;
     display: flex;
-    /* to remove */
-    background-color: yellow;
+    
 }
 
 .col-large {
     width: 70%;
+
     /* test */
     background-color: #1c90ff;
 }
 
 .col-small {
     width: 30%;
+
     /* test */
     background-color: #febfcb;
 }
@@ -154,6 +178,7 @@ li {
 
 footer {
     background-color: black;
+
     /* test */
     height: 500px;
 }
@@ -168,14 +193,12 @@ footer {
 
 .footer-top-container {
     display: flex;
-    margin: 25px 0
-    ;
+    margin: 25px 0;
+
     /* test */
     width: 850px;
     height: 450px;
-    background-color: white;
-
-   
+    background-color: white; 
 
 }
 
@@ -207,6 +230,7 @@ footer {
     display: flex;
     align-items: flex-end;
     justify-content: center;
+
     /* test */
     width: 100%;
     height: 100px;
@@ -223,8 +247,7 @@ footer {
 
     /* test */
     background-color: #7fffd3;
-    height: 30%;
-    
+    height: 30%;  
 }
 
 /* test */
