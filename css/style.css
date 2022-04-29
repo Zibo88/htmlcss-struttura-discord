@@ -20,7 +20,7 @@ ul {
 /* ----- header ------- */
 
 header {
-    padding: 20px 0;
+    padding-top: 10px 0;
     background-color: #add8e6;
 }
 
@@ -28,7 +28,7 @@ header {
     width: 60%;
     margin: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding-bottom: 10px 0;
     
@@ -46,8 +46,7 @@ header {
 
     /* TEST */
     border: 1px dotted black;
-    
-    
+       
 }
 
 .logo {
@@ -99,18 +98,23 @@ li {
 
     /* test */
     height: 300px;
-    width: 650px;
+    width: 60%;
     background-color: #ee81ed;
     border: 1px dotted black;
 
 }
 
 /* ----Main Common------ */
-.section1 {
+
+.section1, .section2, .section3{
     display: flex;
     justify-content: center;
     align-items: center;
 
+}
+
+
+.section1 {
     /* test */
     height: 400px;
     /* to remove */
@@ -118,9 +122,6 @@ li {
 }
 
 .section2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
     /* test */
     height: 400px;
@@ -129,9 +130,6 @@ li {
 }
 
 .section3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     /* test */
     height: 600px;
     /* to remove */
@@ -144,7 +142,7 @@ li {
 
 
     /* test */
-    width: 850px;
+    width: 60%;
     height: 300px;
     display: flex;
     
@@ -169,7 +167,7 @@ li {
 .square {
 
     /* test */
-    width: 850px;
+    width: 60%;
     height: 500px;
     background-color: #228b21;
 }
@@ -196,7 +194,7 @@ footer {
     margin: 25px 0;
 
     /* test */
-    width: 850px;
+    width: 60%;
     height: 450px;
     background-color: white; 
 
